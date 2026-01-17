@@ -1,22 +1,5 @@
--- ts file was generated at discord.gg/25ms
-
-if getgenv().BPSDscript then
-    if getgenv().BPSDscript.loading then
-        return
-    end
-    if getgenv().BPSDscript.unload then
-        pcall(function()
-            getgenv().BPSDscript.unload()
-        end)
-        task.wait(1)
-    end
-end
-
-getgenv().BPSDscript = {
-    loading = true,
-    unload = function() end,
-}
-
+-- KEY SYSTEM REMOVED
+print("BPSD -- key system disabled")
 repeat
     task.wait()
 until game.Loaded
